@@ -1,0 +1,246 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    
+    
+}
+
+
+.top-container{
+    background: linear-gradient(300deg, #f4f4f5, hsl(180, 10%, 94%), #ff1d58);
+  background-size: 180% 180%;
+  animation: gradient-animation 1ms ease infinite;
+    position: relative;
+    height: 50vh;
+    display: flex;
+}
+h2{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    text-align: center;
+
+}
+.software-engineering1{
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    bottom: 0;
+    height: 200px;
+    justify-content: right;
+
+}
+.text-top{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text-top h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    color: rgb(16, 16, 160);
+
+}
+.text-top h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    color: rgb(20, 20, 216) 
+}
+.software-engineering2{
+    position: absolute;
+    right: 50px;
+    top: 200px;
+    bottom: 0;
+    height: 200px; 
+}
+.software-engineering3{
+    position: absolute;
+    top: 84.3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    
+}
+.mid-container{
+    
+    position: relative;
+    height: 200px;
+}
+.profile{
+   padding-top: 100px;
+}
+.profile > .me{
+ height: 200px;
+ border-radius: 50%;
+}
+.education{
+    padding-top: 20px;
+    
+}
+
+.pic-about{
+    padding-left:150px;
+}
+.education img{
+   
+    height: 200px;
+    float: left; 
+    left: 180px;
+    
+}
+.education  ul {
+    
+    text-align: left;
+    padding-left: 300px;
+    padding-top:30px;
+    right: 120px;
+    top: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dot-seperation{
+    padding-top: 50px;
+    font-size: 50px;
+}
+.skills{
+    padding-top: 20px;
+    
+}
+
+
+.skills img{
+   
+    height: 140px;
+    float: left; 
+    left: 500000px;
+    
+}
+.pic-about2{
+    padding-left: 400px;
+}
+.skills  ul {
+    
+    text-align: left;
+    padding-left: 300px;
+    padding-top:30px;
+    right: 120px;
+    top: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Projects{
+    padding-top: 20px;
+    
+}
+
+.pic-about3{
+    padding-left:100px;
+}
+
+.pic-about3 h3{
+    padding-right:250px;
+    padding-top: 20px;
+    text-align: center;
+}
+.Projects img{
+   
+    height: 100px;
+    float: left; 
+    left: 180px;
+    padding-top:65px ;
+    
+}
+.Projects  ul {
+    
+    text-align: left;
+    padding-left: 300px;
+    padding-top:30px;
+    right: 120px;
+    top: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.project2{
+    padding-bottom: 50px;
+}
+.job-search{
+    padding-left:100px ;
+}
+.about-me{
+    padding-top: 20px;
+    
+}
+.pic-about4{
+    padding-left:100px;
+}
+
+.about-me img{
+   
+    height: 100px;
+    float: left; 
+    left: 180px;
+    padding-top:65px ;
+    
+}
+.about-me  p {
+    
+    text-align: left;
+    padding-left: 200px;
+    padding-top:30px;
+    right: px;
+    top: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hobbies{
+    padding-top: 30px;
+    padding-bottom:30px ;
+}
+
+.pic-about5{
+    padding-left:100px;
+}
+
+.hobbies img{
+   
+    height: 100px;
+    float: left; 
+    left: 180px;
+    padding-top:20px ;
+    
+}
+.hobbies  ul {
+    
+    text-align: left;
+    padding-left: 200px;
+    padding-top:30px;
+    right: px;
+    top: 200px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button-container{
+    background: linear-gradient(300deg, #f4f4f5, hsl(180, 10%, 94%), #ff1d58);
+  background-size: 180% 180%;
+  animation: gradient-animation 1ms ease infinite;
+    
+    height: 20vh;
+    
+    
+}
+
+.footer-link{
+    margin: 30px;
+    font-size: 20px;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.button-container p{
+    text-align: center;
+    padding-left:0px ;
+    font-size: 0.75rem;
+}
